@@ -4,14 +4,26 @@ body {
 
 #vision-board {
     width: 1200px;
-    height: 850px;
+    height: 900px;
     margin: 50px auto; 
 	overflow: auto;
-	background: url('../img/background.png');
+	background: url('../img/vision-board-background-four.png');
 	background-size: cover;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
+
+p {
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.block mark {
+    background: #dcd0ba;
+    color: white;
+} 
 
 .block {
     float: left;
@@ -20,13 +32,18 @@ body {
 }
 
 .smaller-block {
-    height: 210px;
-    padding: 30px 30px;
+    height: 250px;
+    padding: 100px 0 0 50px;
+}
+
+.smallest-block {
+    height: 250px;
+    padding: 100px 30px;
 }
 
 .bigger-block {
-    height: 430px; 
-    padding: 60px 30px;
+    height: 400px; 
+    padding: 110px 20px;
 }
 
 .right {
@@ -37,27 +54,29 @@ body {
     text-align: center;
 }
 
-.lighterbg {
-    background: #FFFFFF;
-}
-
-.darkerbg {
-    background: #3B3B3B;
-}
-
 h1 {
     color: white;
+    font-weight: semi-bold; 
 }
+
 h1 span {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
 }
 
 h2 {
-    font-size: 20px;
-    padding-left: 15px; 
+    font-family: 'Prompt', sans-serif;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-left: 15px;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 7px;
 }
-
 p strong {
     text-transform: capitalize; 
-    font-size: 38px; 
+    font-size: 30px;
+    font-weight: 400;
 }
+
